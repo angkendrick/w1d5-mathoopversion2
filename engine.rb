@@ -36,13 +36,16 @@ class Engine
     generate_random_numbers
     generate_operation
     generate_answer
-    "#{@random1} #{@operation} #{@random2} = #{@answer}"
+    "#{@random1} #{@operation} #{@random2} = ?"
   end
 
-  def check_answer(user)
-    if @answer == user
+  def check_answer(ans)
+    puts "#{@answer} #{ans}"
+    if @answer.to_i == ans.to_i
+      puts "Correct!"
       true
     else
+      puts "Wrong!"
       false
     end
   end

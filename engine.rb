@@ -1,3 +1,5 @@
+# Run #run_game from Game instane
+
 class Engine
 
   attr_accessor :random1, :random2, :answer, :operation

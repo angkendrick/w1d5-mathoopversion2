@@ -1,3 +1,5 @@
+# Run #run_game from Game instane
+
 require_relative 'player'
 require_relative 'engine'
 
